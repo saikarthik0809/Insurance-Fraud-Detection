@@ -1,1 +1,1 @@
-# Insurance-Fraud-Detection
+This Python code builds and trains an LSTM model to detect fraudulent insurance claims. It loads data, prepares it by scaling features and converting sequences of past premiums and claims into sequences with labels (fraud or not). Then, it splits data for training and testing, builds an LSTM model with layers to process sequences, trains it on the training data, and evaluates its accuracy on unseen testing data. 
